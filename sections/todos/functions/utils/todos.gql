@@ -5,4 +5,5 @@ type Todo {
 
 type Query {
     allTodos: [Todo!]!
+    completedTodos(completed: Boolean!): [Todo!]!
 }

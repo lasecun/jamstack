@@ -8,6 +8,10 @@ html {
     text-align: center;
 }
 
+.loading {
+    text-align: center;
+}
+
 .todos {
     border-top: 1px solid #ddd;
     list-style: none;
@@ -25,8 +29,4 @@ html {
     margin: 0;
     padding: 0.75rem;
     width: 100%;
-}
-
-.loading {
-    text-align: center;
 }
